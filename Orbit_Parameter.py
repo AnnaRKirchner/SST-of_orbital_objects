@@ -454,7 +454,6 @@ def get_orbital_params(observer, sat_skycoord, sat_heights, u_height, sat_veloci
         u_v_vector= get_u_v_vector(displacement, u_disp, vel_sat, u_vel_sat)
         
         #get fundamental vectors h,n,e
-        #TODO:later also calc orbital parameter for endpoint at r2'
         h_vector, u_h_vector, n_vector, u_n_vector,e_vector, u_e_vector = get_hne_error(v_vector, r1_vector, u_v_vector, u_r1_vector)
         
         #print(f'r1, u_r1: {r1_vector}, {u_r1_vector}') 
