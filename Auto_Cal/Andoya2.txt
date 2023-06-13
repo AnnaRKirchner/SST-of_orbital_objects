@@ -1,0 +1,9 @@
+C:\Users\annar\Informatik\Standard_Frame\Images\Test.jpg
+Lat, Long: 69.27850,16.00930
+Date:2023,2,22
+Time:21,28,22
+Arcsec/px:51.3
+Zenith Approx:2552,1876
+North Off:10.0
+elevation:380
+C:\Users\annar\Informatik\Standard_Frame\Final\Auto_Cal\Astrometry_Test.csv

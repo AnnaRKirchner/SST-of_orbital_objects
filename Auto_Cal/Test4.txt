@@ -1,0 +1,9 @@
+C:\Users\annar\Informatik\Standard_Frame\Images\calibresult_4.jpeg
+69.27850,16.00930
+2023,2,22
+21,28.22
+51.3
+2552,1876
+10.0
+380
+C:\Users\annar\Informatik\Standard_Frame\Final\Auto_Cal\Astrometry_Test4.csv
