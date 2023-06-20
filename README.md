@@ -22,6 +22,7 @@ The folder "Img_Processing" contains example images to the example provided in t
 The "wcs_files" folder contains the world-coordinate-system fits files generated with the Astrometry engine (https://nova.astrometry.net/) for image sequences of the same satellite captured on the 23rd and 27th of March, 2023 at different times.
 "Calibration" contains checkerboard-images used for the calibration of the camera Canon G1X as well as processed calibration images with detected corners for display.
 With he files in "Auto_Cal" the Automated Calibration code can be run exemplarily.
+TLE_26_03.txt contains over 4000 TLE files from the 26th of March 2023, retrieved from Celestrak and Space Track. 
 
 ## Technological Setup
 * Python 3.9
@@ -59,7 +60,7 @@ Here, a pattern with 9 x 6 squares has been used ( can be found here: https://gi
 5. Overpasses.py
    Works seperately from Orbit_Data.py, but one needs to know the satellites start- and endpoints.
    So first run Line_Detection.py.
-   Tries to match over 4000 TLE files to the detected overpass in a polar plot with the observer location as origin.
+   Tries to match over 4000 TLE files (TLE_26_03.txt) to the detected overpass in a polar plot with the observer location as origin.
    Make sure to look into the settings and especially do not forget to change the timespan for the overpass, and the UTC time according      to your observer location. Also SkyCoord_Transform.py needs to be downloaded in the same working directory for coordinate         transformations.
 
    
